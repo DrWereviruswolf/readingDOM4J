@@ -1,0 +1,445 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>内部抽象类的结构 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter3.html" />
+    
+    
+    <link rel="prev" href="mn-extrnl-intrfc.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Dom4j Design and Implementation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../chapter1.html">
+            
+                <a href="../chapter1.html">
+            
+                    
+                    第一章:功能分析与建模
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../chapter1/what-is-xml.html">
+            
+                <a href="../chapter1/what-is-xml.html">
+            
+                    
+                    什么是XML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../chapter1/what-is-dom4j.html">
+            
+                <a href="../chapter1/what-is-dom4j.html">
+            
+                    
+                    什么是Dom4j
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../chapter1/xml-tree-struct.html">
+            
+                <a href="../chapter1/xml-tree-struct.html">
+            
+                    
+                    XML文档树结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../chapter1/xml-namespace.html">
+            
+                <a href="../chapter1/xml-namespace.html">
+            
+                    
+                    XML命名空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../chapter1/dmnd-anlyss.html">
+            
+                <a href="../chapter1/dmnd-anlyss.html">
+            
+                    
+                    需求分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../chapter2.html">
+            
+                <a href="../chapter2.html">
+            
+                    
+                    第二章：核心流程设计分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="mn-extrnl-intrfc.html">
+            
+                <a href="mn-extrnl-intrfc.html">
+            
+                    
+                    主要外部接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.2" data-path="intnl-abstrct-clss-strctr.html">
+            
+                <a href="intnl-abstrct-clss-strctr.html">
+            
+                    
+                    内部抽象类的结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../chapter3.html">
+            
+                <a href="../chapter3.html">
+            
+                    
+                    第三章：高级设计意图分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../chapter3/intntn.html">
+            
+                <a href="../chapter3/intntn.html">
+            
+                    
+                    意图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../chapter3/sltn.html">
+            
+                <a href="../chapter3/sltn.html">
+            
+                    
+                    解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../cncltn.html">
+            
+                <a href="../cncltn.html">
+            
+                    
+                    结语
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >内部抽象类的结构</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="22-&#x5185;&#x90E8;&#x62BD;&#x8C61;&#x7C7B;&#x7684;&#x7ED3;&#x6784;">2.2 &#x5185;&#x90E8;&#x62BD;&#x8C61;&#x7C7B;&#x7684;&#x7ED3;&#x6784;</h3>
+<p>&#x5F53;&#x6DF1;&#x5165;&#x8DDF;&#x8E2A;XML&#x89E3;&#x6790;&#x8FC7;&#x7A0B;&#x7684;&#x8C03;&#x7528;&#x6808;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x4F1A;&#x4E00;&#x6B21;&#x6B21;&#x8FDB;&#x5165;tree&#x5305;&#x3002;
+&#x4ECE;AbstractNode&#x7684;&#x7C7B;&#x578B;&#x540D;&#x6570;&#x7EC4;&#x4E2D;&#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x51FA;Tree&#x5305;&#x901A;&#x8FC7;&#x62BD;&#x8C61;&#x7C7B;&#x5B9E;&#x73B0;&#x4E86;&#x56FE;1&#x4E2D;&#x6240;&#x6709;&#x7684;&#x5916;&#x90E8;&#x63A5;&#x53E3;&#x3002;</p>
+<p><img src="../assets/abstrct_nd.png" alt=""></p>
+<p>&#x76F4;&#x89C2;&#x4E0A;&#x53BB;&#x770B;&#x8FD9;&#x4E2A;&#x5305;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x548C;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x5982;&#x4E0B;&#xFF0C;&#x51E0;&#x4E4E;&#x6BCF;&#x4E00;&#x4E2A;&#x63A5;&#x53E3;&#x90FD;&#x62E5;&#x6709;&#x62BD;&#x8C61;&#x7C7B;&#xFF0C;&#x4EAB;&#x5143;&#x7C7B;&#x548C;&#x9ED8;&#x8BA4;&#x521B;&#x5EFA;&#x7C7B;&#x3002;</p>
+<p><img src="../assets/dependency_matrix.png" alt=""></p>
+<p>Tree&#x5305;&#x5185;&#x90E8;&#x7C7B;&#x7684;&#x8026;&#x5408;&#x5EA6;&#x6781;&#x4F4E;&#xFF0C;&#x53CD;&#x6620;&#x5728;&#x5177;&#x4F53;&#x7684;&#x7C7B;&#x56FE;&#x4E0A;&#x5982;&#x4E0B;&#xFF0C;&#x4EE5;Attribute&#x4E3A;&#x4F8B;&#x3002;
+&#x62BD;&#x8C61;&#x7C7B;AbstractAttribute&#x8D1F;&#x8D23;&#x5BF9;&#x4E0A;&#x5C42;&#x7684;&#x63A5;&#x53E3;&#x8FDB;&#x884C;&#x5C0F;&#x5E45;&#x5EA6;&#x7684;&#x5C01;&#x88C5;&#xFF0C;&#x5F62;&#x6210;&#x4E00;&#x4E9B;&#x8F83;&#x4E3A;&#x590D;&#x6742;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x800C;&#x4E0D;&#x5C40;&#x9650;&#x4E8E;&#x5355;&#x72EC;&#x7684;Attribute&#x8282;&#x70B9;&#x3002;
+Flyweight&#x4EAB;&#x5143;&#x7C7B;&#x7528;&#x4E8E;&#x51CF;&#x5C11;&#x5B58;&#x50A8;&#x5F00;&#x9500;&#xFF0C;&#x8FD9;&#x5728;&#x7B2C;&#x4E09;&#x7AE0;&#x4E2D;&#x8FD8;&#x4F1A;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#x3002;
+&#x800C;defaultAttribute&#x7C7B;&#x5219;&#x5728;&#x5DE5;&#x5382;&#x5B9E;&#x4F8B;&#x5316;&#x65F6;&#x53EF;&#x4EE5;&#x7528;&#x5230;&#x3002;</p>
+<p><img src="../assets/uml.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="mn-extrnl-intrfc.html" class="navigation navigation-prev " aria-label="Previous page: 主要外部接口">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter3.html" class="navigation navigation-next " aria-label="Next page: 第三章：高级设计意图分析">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"内部抽象类的结构","level":"2.2.2","depth":2,"next":{"title":"第三章：高级设计意图分析","level":"2.3","depth":1,"path":"chapter3.md","ref":"chapter3.md","articles":[{"title":"意图","level":"2.3.1","depth":2,"path":"chapter3/intntn.md","ref":"chapter3/intntn.md","articles":[]},{"title":"解决方案","level":"2.3.2","depth":2,"path":"chapter3/sltn.md","ref":"chapter3/sltn.md","articles":[]}]},"previous":{"title":"主要外部接口","level":"2.2.1","depth":2,"path":"chapter2/mn-extrnl-intrfc.md","ref":"chapter2/mn-extrnl-intrfc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2/intnl-abstrct-clss-strctr.md","mtime":"2020-02-01T14:10:05.208Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-01T03:45:51.791Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
